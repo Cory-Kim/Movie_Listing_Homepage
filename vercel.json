@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "Angular",
+  "builds": [
+    {
+      "src": "app.main.ts",
+      "use": "@vercel/angular"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/src/app/(.*)",
+      "dest": "/src/app/app.main.ts"
+    }
+  ]
+}
