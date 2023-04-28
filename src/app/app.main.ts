@@ -4,7 +4,7 @@ import { DatePipe } from '@angular/common';
 import { environment } from './environment';
 
 const BASE_URL = 'http://api.themoviedb.org/3/discover/movie?';
-const API_KEY = environment.API_KEY; // Use v3
+const API_KEY = 'api_key=b051ce1ea4a59757dd9126b5d404bd43'; // Use v3
 const IMG_URL = 'https://image.tmdb.org/t/p/w500';
 const API_URL = BASE_URL + API_KEY;
 
